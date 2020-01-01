@@ -1,0 +1,25 @@
+{
+  "name": "create-express-app",
+  "version": "1.0.0",
+  "description": "Create express application through simple CLI",
+  "main": "./bin/create-express-app.ts",
+  "bin": {
+    "create-express-app": "./build/create-express-app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihooni/create-express-app.git"
+  },
+  "author": "ihooni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihooni/create-express-app/issues"
+  },
+  "homepage": "https://github.com/ihooni/create-express-app#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
