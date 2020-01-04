@@ -1,6 +1,6 @@
 {
   "name": "@ihooni/create-express-app",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "Create express application through simple CLI",
   "main": "./src/create-express-app.ts",
   "bin": {
