@@ -1,12 +1,21 @@
 {
-  "name": "create-express-app",
-  "version": "1.0.0",
+  "name": "@ihooni/create-express-app",
+  "version": "0.0.1-alpha.2",
   "description": "Create express application through simple CLI",
-  "main": "./bin/create-express-app.ts",
+  "main": "./src/create-express-app.ts",
   "bin": {
-    "create-express-app": "./build/create-express-app.js"
+    "@ihooni/create-express-app": "./bin/create-express-app.js",
+    "create-express-app": "./bin/create-express-app.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-express-app"
+  ],
   "scripts": {
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +28,18 @@
     "url": "https://github.com/ihooni/create-express-app/issues"
   },
   "homepage": "https://github.com/ihooni/create-express-app#readme",
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "commander": "^4.0.1",
+    "figlet": "^1.2.4",
+    "ora": "^4.0.3",
+    "path": "^0.12.7"
+  },
   "devDependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
     "eslint": "^6.8.0",
