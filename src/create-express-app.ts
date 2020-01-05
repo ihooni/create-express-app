@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-import clear from 'clear'
-import chalk from 'chalk'
-import figlet from 'figlet'
+import program from 'commander'
+import { version } from '../package.json'
 
-clear()
-
-console.log(
-  chalk.yellow(figlet.textSync('ihooni', { horizontalLayout: 'full' }))
-)
+program
+  .name('create-express-app')
+  .description('Create express application through simple CLI')
+  .version(version, '-v, --version')
+  .usage('[options] [out-dir]')
+  .parse(process.argv)

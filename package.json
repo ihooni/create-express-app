@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc -p .",
+    "start": "node bin/src/create-express-app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,13 +34,12 @@
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "commander": "^4.0.1",
-    "figlet": "^1.2.4",
     "ora": "^4.0.3",
     "path": "^0.12.7"
   },
   "devDependencies": {
     "@types/clear": "^0.1.0",
-    "@types/figlet": "^1.2.0",
+    "@types/node": "^13.1.4",
     "@typescript-eslint/eslint-plugin": "^2.14.0",
     "@typescript-eslint/parser": "^2.14.0",
     "eslint": "^6.8.0",
