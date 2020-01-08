@@ -15,9 +15,9 @@
     "create-express-app"
   ],
   "scripts": {
-    "build": "tsc -p .",
+    "build": "tsc",
     "start": "node bin/src/create-express-app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "register": "npm run build && npm install -g"
   },
   "repository": {
     "type": "git",
