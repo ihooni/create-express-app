@@ -4,7 +4,7 @@ import { version } from '../package.json'
 
 program
   .name('create-express-app')
-  .description('Create express application through simple CLI')
+  .description('CLI for creating express app based on typescript.')
   .version(version, '-v, --version')
   .usage('[options] [out-dir]')
   .parse(process.argv)
