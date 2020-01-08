@@ -1,5 +1,6 @@
 # logs
 yarn-error.log
+npm-debug.log
 /logs
 
 # compiled files
